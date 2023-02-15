@@ -2,7 +2,7 @@
 CSC 134 repository SP2023
 
 #purpose 
-This is a repo for csc134to demonstrate:
+This is a repo for csc134 to demonstrate:
 - markdown
 - source control
 - version control
@@ -14,6 +14,6 @@ Relevant assignmetns for today (2/15):
 3. m3lab3 (versioning a prokect in progress)
 
 #Markdown examples
-#heading
-##Subheading 
+#heading#
+##Subheading##
 **boldtext** and *italic text*
