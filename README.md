@@ -1,1 +1,19 @@
-# csc134
+# csc134_sp23
+CSC 134 repository SP2023
+
+#purpose 
+This is a repo for csc134to demonstrate:
+- markdown
+- source control
+- version control
+- (optional) Github Pages
+
+Relevant assignmetns for today (2/15):
+1. m3lab2 (uploading)
+2. m3t3 (creating this repo)
+3. m3lab3 (versioning a prokect in progress)
+
+#Markdown examples
+#heading
+##Subheading 
+**boldtext** and *italic text*
