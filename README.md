@@ -16,4 +16,4 @@ Relevant assignmetns for today (2/15):
 # Markdown examples
 # heading #
 ## Subheading ##
-**boldtext** and *italic text*
+**bold text** and *italic text*
