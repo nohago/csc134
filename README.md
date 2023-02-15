@@ -1,7 +1,7 @@
 # csc134_sp23
 CSC 134 repository SP2023
 
-#purpose 
+# purpose 
 This is a repo for csc134 to demonstrate:
 - markdown
 - source control
