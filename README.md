@@ -13,6 +13,10 @@ Relevant assignmetns for today (2/15):
 2. m3t3 (creating this repo)
 3. m3lab3 (versioning a prokect in progress)
 
+updated 2/27:
+-M4T1
+-M4T2 (Menu, Input Validation)
+
 #Markdown examples
 # heading #
 ## Subheading ##
