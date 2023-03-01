@@ -1,4 +1,6 @@
 # depslib dependency file v1.0
-1677515277 source:c:\dev\github\csc134\m4t2_goumaa\main.cpp
+1677688408 source:c:\dev\github\csc134\m4t2_goumaa\main.cpp
 	<iostream>
+	<cstdlib>
+	<ctime>
 
