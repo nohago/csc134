@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstdlib> // enables rand(), srand()
 #include <ctime> // use of time
+
 using namespace std;
+
 // CSC 134
 // M4T2 - menus
 // Noha Goumaa
@@ -44,6 +46,39 @@ void option_two() {
 
 void option_three() {
     // sum and average of dice
+    // roll 3d6 six times
+    // find the sum and the average
+    // TODOtodo: reroll if its not high enough
+    int total = 0;     // total of all stats
+    int d6_1, d6_2, d6_3;   // 3 dice (6 sided)
+    int roll;
+    int seed = time(0);
+    srand (seed);
+    for (int i=1; i<=6; i++) {
+        // roll dice
+        d6_1 = (rand() %6) +1; // 0-5, then add one
+        d6_2 = (rand() %6) +1;
+        d6_3 = (rand() %6) +1;
+        roll = d6_1 + d6_2 + d6_3;
+
+        // print results
+        cout << "Roll # " << i << ": ";
+        cout << d6_1 << " + " << d6_2 << " + " << d6_3;
+        cout << " = " << total << endl;
+
+        // add to the total
+        total += roll;
+    }
+    // print the total
+    cout << "total of all stats: " << total << endl;
+    int average = total / 6 ;  // note: were dropping he decimal
+    cout << "average roll = " << average << endl;
+    if (average <= 9) {
+        cout << "Low stats, you can reroll." << endl;
+    }
+    else {
+        cout << "A playable character!" << endl;
+    }
 }
 
 // there is no option 4 function, it's just quit.
